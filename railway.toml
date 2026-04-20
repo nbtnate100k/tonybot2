@@ -1,0 +1,6 @@
+[build]
+dockerfilePath = "Dockerfile"
+
+[deploy]
+restartPolicyType = "ON_FAILURE"
+# In Railway → service → Settings: use 1 replica (Telegram polling: one getUpdates per bot token).
